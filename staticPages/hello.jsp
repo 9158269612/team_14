@@ -17,7 +17,7 @@
 
 <body>
 
-I am hello and am friend of HelloServlet. :: I GOT THE MESSAGE :: 
+I am hello and am friend of HelloServlet. :: I GOT THE MESSAGE :: hello again
 
 <h1>
 	MESSSAGE ::: <%= message %>	
