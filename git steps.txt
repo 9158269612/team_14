@@ -1,0 +1,71 @@
+
+HP@Stark_Solutions MINGW64 ~
+$ cd desktop
+
+HP@Stark_Solutions MINGW64 ~/desktop
+$ mkdir WeaponX
+
+HP@Stark_Solutions MINGW64 ~/desktop
+$ cd WeaponX
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX
+$ git clone https://github.com/9158269612/team_14.git
+Cloning into 'team_14'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 2 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX
+$ ls
+team_14/
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX
+$ cd team_14
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (master)
+$ git checkout team14_69
+Switched to a new branch 'team14_69'
+Branch 'team14_69' set up to track remote branch 'team14_69' from 'origin'.
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14
+ (team14_69)
+$ git add -A
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git commit -m
+error: switch `m' requires a value
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git commit -m "Hello"
+On branch team14_69
+Your branch is up to date with 'origin/team14_69'.
+
+Untracked files:
+        Hello World.txt
+
+nothing added to commit but untracked files present
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git push
+Everything up-to-date
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git push
+Everything up-to-date
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$ git pull
+Already up to date.
+
+HP@Stark_Solutions MINGW64 ~/desktop/WeaponX/team_14 (team14_69)
+$
